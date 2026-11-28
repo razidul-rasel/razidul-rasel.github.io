@@ -1,0 +1,30 @@
+WEBSITE UPDATE GUIDE
+
+- Home remains at https://razidul-rasel.github.io/; clicking the brand/name returns to the root URL.
+- About button is now "Explore my activity" and opens /insights/.
+- Skills: only the requested bottom note was removed.
+- Projects: expanded with the five projects listed on the public LinkedIn profile, plus WHO AMC Tool and BMS Suite from the existing professional context, and the MSc research project. Direct project-site links are included for AMU and PCB. For entries without a confirmed public project website, the button links to the LinkedIn Projects listing instead.
+- Insights: ten cards with a centered date badge, categories, search, and a Blogs filter.
+- LinkedIn public profile posts were readable for the seven-year milestone, AMU training, stakeholder/inception activity, and recognition. LinkedIn guest view did not provide reliable downloadable copies of the original post photos; cards therefore have photo placeholders, not unrelated stock images.
+- Upload your original card photos into assets/insights/ using these filenames:
+- seven-years.jpg
+- amu-presentation.jpg
+- amu-training-workshop.jpg
+- amu-final-stakeholder.jpg
+- amu-stakeholder-meeting.jpg
+- amu-inception-meeting.jpg
+- performance-recognition.jpg
+- best-employee-award.jpg
+- blog-delay-risk.jpg
+- blog-quality-assurance.jpg
+
+PRESENTATION
+The second Insights card and the AMU training article link to the supplied LinkedIn presentation post. The public LinkedIn page does not expose a downloadable MP4. To host it directly, provide the original MP4 file.
+
+CLEAN URLS
+Home: /
+Other pages: /education/, /skills/, /experience/, /projects/, /research-publications/, /insights/
+GitHub Pages folder routes are extensionless; the trailing slash is normal.
+
+GITHUB UPLOAD
+Upload the ZIP contents into the root of your existing repository, replacing same-name files and adding the new folders. Keep assets/ and all page folders. Do not upload the ZIP file itself.
