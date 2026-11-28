@@ -35,3 +35,7 @@ html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--in
 .insight-body .insight-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:auto}
 .insight-body .insight-actions a{margin-top:0}
 @media(max-width:560px){.insight-photo{height:180px}.insight-date{width:56px;height:56px;bottom:-19px}.insight-body{padding-top:28px}}
+/* Fix: Show uploaded Insights photos */
+.insight-photo .photo-placeholder {
+    display: none;
+}
